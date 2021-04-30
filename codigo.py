@@ -4,8 +4,8 @@ from openpyxl.styles import Font, Color
 from openpyxl.chart import Reference, LineChart, Series
 
 ciclos = 100
-tipoSeleccion = 1 #1=RULETA 2=TORNEO
-elite = False #True/False
+tipoSeleccion = 2 #1=RULETA 2=TORNEO
+elite = True #True/False
 
 cantGenes = 30
 cantCromosomas = 10
